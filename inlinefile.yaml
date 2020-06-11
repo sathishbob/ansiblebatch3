@@ -9,3 +9,4 @@
       dest: /home/ansible/hostname.conf
       line: Hostname={{ ansible_hostname }}
       state: present
+      
