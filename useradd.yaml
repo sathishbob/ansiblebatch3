@@ -2,6 +2,6 @@
   tasks:
   - name: create user
     user:
-      name: "{{ username }}"
+      name: webhookuser
       state: present
-      shell: "{{ shell }}"
+      shell: /bin/bash
